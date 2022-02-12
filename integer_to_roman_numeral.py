@@ -2,10 +2,10 @@
 
 # convert any whole number (0-9999) to roman numeral
 
-user_input = input('please enter a whole number 0-999: ')
+user_input = int(input('please enter a whole number 0-999: '))
 
 def build_roman(num):
-   if(num == 0): return
+   if(num == 0): return '...'
    elif(num >= 1000): return 'M' + build_roman(num-1000)
    elif(num >= 900): return 'C' + build_roman(num+100)
    elif(num >= 500): return 'D' + build_roman(num-500)
@@ -20,7 +20,8 @@ def build_roman(num):
    elif(num >= 4): return 'I' + build_roman(num+1)
    elif(num >= 1): return 'I' + build_roman(num-1)
 
-if(user_input > 9999): print('you entered a number that is too large')
-if(user_input < 0000): print('you entered a number that is too small')
+# how to do this more efficiently without 4/9 case?
 
-print(build_roman(int(user_input)))
+if(user_input > 9999): print('you entered a number that is too large')
+elif(user_input < 0000): print('you entered a number that is too small')
+else: print(build_roman(int(user_input)))
