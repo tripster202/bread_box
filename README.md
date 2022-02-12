@@ -1,17 +1,17 @@
 # bread_box
-/*/* add emojis /*/*
+\*\* add emojis \*\*
 
-###*delicious glazed treats are stored here*
+### *delicious glazed treats are stored here*
 
 this repository contains the work of tripster202
 
-###project goals
+### project goals
 - Algorithms
 - WebDev
 - Databases
 - Networking
 
-###code goals
+### code goals
 - Python
 - Go
 - HTML
