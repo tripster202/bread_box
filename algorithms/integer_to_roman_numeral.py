@@ -1,6 +1,6 @@
 # https://www.youtube.com/watch?v=ohBNdSJyLh8
 
-# convert any whole number (0-9999) to roman numeral
+# convert any whole number (0-999) to roman numeral
 
 user_input = int(input('please enter a whole number 0-999: '))
 
