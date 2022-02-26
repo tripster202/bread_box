@@ -7,7 +7,7 @@ this repository contains the work of tripster202
 [Advent of Code](https://adventofcode.com/2021)
 
 ### project goals
-- Hello World Base
+- Hello World
 - Algorithms
 - Web Development
 - Databases
