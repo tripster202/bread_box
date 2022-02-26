@@ -1,11 +1,12 @@
 // hello world
 
-# import <iostream>
+# include <iostream>
+using namespace std;
 
 int main(int argc, char const *argv[])
 {
 	/* code */
-	std::cout << "Hello World" << std::endl;
+	cout << "Hello World" << endl;
 	return 0;
 }
 
