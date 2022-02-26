@@ -1,14 +1,17 @@
 // hello world
 
-# include <iostream>
+#include <iostream>
 using namespace std;
 
-int main(int argc, char const *argv[])
+int main()
 {
-	/* code */
-	cout << "Hello World" << endl;
+	cout << "Hello World!";
 	return 0;
 }
 
 // compiler installation windows
 // https://code.visualstudio.com/docs/cpp/config-mingw
+// building and running cpp program
+// https://code.visualstudio.com/docs/languages/cpp
+// Neural Nine C++ YouTube Playlist
+// https://www.youtube.com/playlist?list=PL7yh-TELLS1HSmBcqYk9LhPYSWp31FWH2
