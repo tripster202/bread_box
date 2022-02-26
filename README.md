@@ -16,6 +16,7 @@ this repository contains the work of tripster202
 ### code goals
 - Python
 - Go
+- C++
 - HTML
 - JavaScript
 - TypeScript
