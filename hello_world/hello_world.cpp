@@ -5,6 +5,9 @@
 int main(int argc, char const *argv[])
 {
 	/* code */
-	printf("Hello World\n")
+	std::cout << "Hello World" << std::endl;
 	return 0;
 }
+
+// compiler installation windows
+// https://code.visualstudio.com/docs/cpp/config-mingw
