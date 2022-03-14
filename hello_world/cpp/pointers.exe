@@ -1,0 +1,30 @@
+# 0 "C:\\Users\\hocke\\Desktop\\codez\\bread_box\\hello_world\\cpp\\pointers.cpp"
+# 1 "C:\\Users\\hocke\\Desktop\\codez\\bread_box\\hello_world\\cpp//"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "C:\\Users\\hocke\\Desktop\\codez\\bread_box\\hello_world\\cpp\\pointers.cpp"
+
+
+
+
+using namespace std;
+
+int main() {
+
+
+
+string food = "Pizza";
+string &dinner = food;
+
+cout << food << "\n";
+cout << dinner << "\n";
+
+
+
+string food = "Pizza";
+
+cout << food << "\n";
+cout << &food << "\n";
+
+return 0;
+}
