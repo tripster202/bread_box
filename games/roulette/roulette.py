@@ -46,6 +46,7 @@ def try_luck(purse,unit_bet,happy):
    print('Spins: '+str(spins))
    print('Wins:'+str(wins))
    print('Losses: '+str(losses))
+   print('// ------ // ------ //')
    # ------ #
 
 ## ------ ------ ------ ##
@@ -55,5 +56,6 @@ if __name__ == "__main__":
    unit_bet = int(input('Unit Bet: $'))
    happy = int(input('Happy Amount: $'))
    num_runs = int(input('Enter Number of Runs: '))
+   print('// ------ // ------ //')
    for ea in range(num_runs):
       try_luck(purse,unit_bet,happy)
