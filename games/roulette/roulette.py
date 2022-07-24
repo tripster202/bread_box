@@ -38,24 +38,28 @@ def try_luck(purse,unit_bet,happy):
       roll = random.randint(1,38); spins += 1
       if(second_dozen(roll) or third_dozen(roll)): wins += 1; table_money += unit_bet*3
       else: losses += 1
-      if(table_money > high): high = table_money
-      if(table_money >= happy): break
+      # if(table_money > high): high = table_money
+      if(table_money >= happy): return True
    # ------ #
-   print('Money: $'+str(table_money))
-   print('High: $'+str(high))
-   print('Spins: '+str(spins))
-   print('Wins:'+str(wins))
-   print('Losses: '+str(losses))
-   print('// ------ // ------ //')
+   # print('Money: $'+str(table_money))
+   # print('High: $'+str(high))
+   # print('Spins: '+str(spins))
+   # print('Wins:'+str(wins))
+   # print('Losses: '+str(losses))
+   # print('// ------ // ------ //')
    # ------ #
+   return False
 
 ## ------ ------ ------ ##
 
 if __name__ == "__main__":
+   wins = 0; losses = 0
    purse = int(input('Starting Amount: $'))
    unit_bet = int(input('Unit Bet: $'))
    happy = int(input('Happy Amount: $'))
    num_runs = int(input('Enter Number of Runs: '))
    print('// ------ // ------ //')
    for ea in range(num_runs):
-      try_luck(purse,unit_bet,happy)
+      if(try_luck(purse,unit_bet,happy)): wins += 1
+      else: losses += 1
+   print((wins,losses))
