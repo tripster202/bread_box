@@ -17,9 +17,26 @@ def third_row(num):
 
 ## ------ ------ ------ ##
 
-def try_luck(unit_bet,happy):
+def first_dozen(num):
+   return num < 37 and int(num/12) < 1
+
+def second_dozen(num):
+   return num < 37 and int(num/12) == 1
+
+def third_dozen(num):
+   return num < 37 and int(num/12) > 1
+
+## ------ ------ ------ ##
+
+def try_luck(purse,unit_bet,happy):
+   table_money = purse
+   wager = unit_bet*2
    spins = 0; wins = 0; losses = 0;
-   roll = random.randint(1,38)
+   # ------ #
+   while(table_money - wager > 0):
+      table_money -= wager
+      roll = random.randint(1,38)
+      if()
 
 ## ------ ------ ------ ##
 
