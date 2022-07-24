@@ -7,21 +7,21 @@ grn = [37,38] # list
 ## ------ ------ ------ ##
 
 def first_row(num):
-    return num < 37 and num % 3 == 1
+   return num < 37 and num % 3 == 1
 
 def second_row(num):
-    return num < 37 and num % 3 == 2
+   return num < 37 and num % 3 == 2
 
 def third_row(num):
-    return num < 37 and num % 3 == 0
+   return num < 37 and num % 3 == 0
 
 ## ------ ------ ------ ##
 
 def try_luck(unit_bet,happy):
-    spins = 0; wins = 0; losses = 0;
-    roll = random.randint(1,38)
+   spins = 0; wins = 0; losses = 0;
+   roll = random.randint(1,38)
 
 ## ------ ------ ------ ##
 
 if __name__ == "__main__":
-    try_luck()
+   try_luck()
