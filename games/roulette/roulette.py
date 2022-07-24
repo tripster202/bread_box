@@ -1,6 +1,9 @@
 import random
 
 def try_luck():
+    red = [] # list
+    blk = [] # list
+    grn = [] # list
     print(random.randint(1,38))
 
 
