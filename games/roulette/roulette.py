@@ -33,7 +33,7 @@ def try_luck(purse,unit_bet,happy):
    wager = unit_bet*2
    spins = 0; wins = 0; losses = 0; high = purse
    # ------ #
-   while(table_money - wager > 0):
+   while(table_money - wager >= 0):
       table_money -= wager
       roll = random.randint(1,38); spins += 1
       if(second_dozen(roll) or third_dozen(roll)): wins += 1; table_money += unit_bet*3
