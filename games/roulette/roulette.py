@@ -54,4 +54,6 @@ if __name__ == "__main__":
    purse = int(input('Starting Amount: $'))
    unit_bet = int(input('Unit Bet: $'))
    happy = int(input('Happy Amount: $'))
-   try_luck(purse,unit_bet,happy)
+   num_runs = int(input('Enter Number of Runs: '))
+   for ea in range(num_runs):
+      try_luck(purse,unit_bet,happy)
