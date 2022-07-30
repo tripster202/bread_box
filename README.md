@@ -6,6 +6,7 @@ this repository contains the work of tripster202
 
 ### project goals
 - Hello World
+- Git Proficiency
 - Algorithms
 - Games
 - Web Development
